@@ -1,0 +1,21 @@
+<script>
+    let palavra = prompt('escreva uma palavra')
+    let vogal = []
+    vogal[0] = 'a'
+    vogal[1] = 'e'
+    vogal[2] = 'i'
+    vogal[3] = 'o'
+    vogal[4] = 'u'
+    let contador = 0
+
+
+    for (let i = 0; i < palavra.length; i++) {
+        for (let v = 0; v <= 4; v++) {
+            if (vogal[v] == palavra[i]) {
+                contador++
+            }
+        }
+    }
+
+    alert('total de vogais na sua palavra é:' + contador)
+</script>

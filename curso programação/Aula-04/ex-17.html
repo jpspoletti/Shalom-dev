@@ -1,0 +1,20 @@
+<script>
+    let f1=1
+    let f2=1
+    let fib= Number(prompt('digite um numero'))
+    let soma=0
+
+    for(let i=3;i<=fib;i++){
+        soma = f1 + f2
+        f1 = f2
+        f2 = soma
+    }
+
+    let resol=0
+    if(fib<3){
+        resol = 1
+    }else{
+        resol = soma
+    }
+    alert(resol)
+</script>

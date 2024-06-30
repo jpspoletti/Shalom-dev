@@ -9,61 +9,70 @@
 
 <body>
     <style>
-        #container{
-             display: flex;
-             flex-direction: column;
-             text-align: center;
-             width:400px ;
-             height: 500px;
-             background-color: limegreen;
-             margin-left: 500px;
-             margin-top: 75px;
-        }
-        #botao{
+        #formulario {
             display: flex;
-            
+            text-align: left;
+            flex-direction: column;
+            margin: 0 auto;
+            width: 300px;
+            height: 500px;
+            background-color: green;
+            border-radius: 15px;
+            padding: 15px;
+            font-size: 20px;
         }
-        
 
+        #formulario>div>label {
+            display: inline-block;
+            width: 100%;
+            padding-top: 10px;
+        }
+        #formulario>div>input {
+            display: inline-block;
+            width: 100%;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+            height: 22px;
+            line-height: 22px;
+        }
+
+
+        #formulario>h1 {
+            text-align: center;
+        }
+
+        #botao {
+            display: flex;
+            background-color: blue;
+            width: 400px;
+            margin: 0 auto;
+        }
     </style>
-    <div id="container">
+    <div id="formulario">
         <h1 id="titulo">Cadastrar</h1>
-        <br>
-        <br>
-        <label for="nome" id="usu">
-            Nome do Usuario: <br>
-            <input type="text" >
-        </label>
-        <br>
-        <br>
-        <label for="telefone" id="telefone">
-            Número de telefone: <br>
+        <div>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" />
+        </div>
+        <div>
+            <label for="telefone" id="telefone">Telefone: </label>
             <input type="tel" id="telefone" class="input-padrao" required placeholder="(xx) xxxxx-xxxx">
-        </label>
-        <br>
-        <br>
-        <label for="email" id="mail">
-            Email: <br>
+        </div>
+        <div>
+            <label for="email" id="mail">Email:</label>
             <input type="email">
-        </label>
-        <br>
-        <br>
-        <label for="senha" id="senh">
-            Senha: <br>
+        </div>
+        <div>
+            <label for="senha" id="senh">Senha:</label>
             <input type="password">
-        </label>
-        <br>
-        <br>
-        <label for="confirmsenha" id="confsen">
-            Confirmação de senha: <br>
+        </div>
+        <div>
+            <label for="confirmsenha" id="confsen">Confirmar:</label>
             <input type="password">
-        </label>
+        </div>
     </div>
     <div id="botao">
-        <br>
-        <br>
         <button onclick="logar()" id="botaologin">Cadastrar</button>
-        <br>
         <a href="Tela-login.html" id="trocar-pag">Login</a>
     </div>
     <script>

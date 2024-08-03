@@ -1,0 +1,16 @@
+<script>
+    let numero = Number(prompt('digite o número aqui'));
+    let primo = 0;
+
+    for(let i = 1; i <= numero; i++){
+        if(numero%i==0){
+            primo ++;
+        }
+    }
+
+    if(primo == 2){
+        alert('esse é um numero primo');
+    } else{
+        alert('esse não é um numero primo');
+    }
+</script>

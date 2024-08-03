@@ -1,0 +1,17 @@
+<script>
+    let palavra = prompt("escreva a palavra aqui");
+
+    let letras = "";
+
+    for (let i = palavra.length; i >= 0; i--) {
+        letras += palavra.charAt(i);
+    }
+
+    if(palavra == letras){
+        alert('essa palavra é um palindromo');
+    }else{
+        alert('essa palavra não é um palindromo');
+    }
+    
+    
+</script>

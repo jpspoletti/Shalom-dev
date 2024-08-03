@@ -1,0 +1,80 @@
+border-collapse: collapse;
+margin: 0 auto;
+margin-top: 20px;
+font-size: 1.2em;
+font-family: sans-serif;
+min-width: 1200px;
+box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.table thead tr {
+background-color: #009879;
+color: #ffffff;
+text-align: left;
+}
+
+.table th,
+.table td {
+padding: 12px 15px;
+}
+
+.table tbody tr {
+border-bottom: 1px solid #dddddd;
+}
+
+.table tbody tr:nth-of-type(even) {
+background-color: #f3f3f3;
+}
+
+.table tbody tr:last-of-type {
+border-bottom: 2px solid #009879;
+}
+
+.table tbody tr.active-row {
+font-weight: bold;
+color: #009879;
+}
+
+#delet{ 
+background-color: rgb(231, 77, 77);
+border: 2px solid rgb(231, 77, 77);
+border-radius: 6px;
+height: 30px;
+font-size: 1em;
+}
+
+#titulo{
+font-weight: bold;
+font-size: 35pt;
+text-align: left;
+}
+
+.topo{
+margin-top: 25px;
+min-height: 80px;
+border-bottom: solid 5px rgb(4, 36, 11);
+margin-bottom: 30px;
+}
+
+.btn-topo-esquerda{
+border: 2px solid rgb(0, 0, 0);
+font-size: 25px;
+background-color: rgb(240, 240, 240);
+border-radius: 5px;
+color: rgb(83, 83, 83);
+float: right;
+margin-top: 10px;
+}
+
+#cadastro{ 
+color: rgb(83, 83, 83);
+border: 2px solid rgb(0, 0, 0);
+font-size: 25px;
+background-color: rgb(240, 240, 240);
+border-radius: 5px;
+float: left;
+}
+
+#usulog{
+float: right;
+}

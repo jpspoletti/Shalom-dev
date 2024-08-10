@@ -1,0 +1,50 @@
+main{
+    color: rgb(0, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2.cap;
+    background-color: bisque;
+    width: 250px;
+    border: solid 3px rgb(80, 91, 245);
+    margin-bottom: 15px;
+}
+
+main>section{
+    margin-left: 20px;
+}
+dt{
+    color: blue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2.cap;
+}
+
+ol{
+    color: rgb(10, 108, 168);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2.cap;
+}
+
+ul{
+    color: rgb(10, 108, 168);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2.cap; 
+}
+
+div{
+    background-color: rgb(222, 250, 250);
+    width: 450px;
+    border: solid 3px rgb(199, 155, 34);
+    border-radius: 10px;
+    margin: auto 0;
+}
+
+div>h1{
+    margin-left: 10px;
+}
+div>dl>dt{
+    margin-left: 10px;
+}
+
+#google{
+    margin-bottom: 8px;
+    margin-left: 8px;
+}

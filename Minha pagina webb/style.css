@@ -1,0 +1,133 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+#container{
+    align-content: center;
+    width: 99.55%;
+    display: flex;
+    flex-direction: row;
+    height: 627px;
+    border: solid 3px rgb(0, 0, 0);
+    text-align: center;
+}
+
+#p1{
+    width: 30%;
+    background-color: rgba(76, 126, 76, 0.678);
+    display: inline-block;
+    height: 99.6%;
+    border: solid 2px;
+}
+
+#p2{
+    width: 70%;
+    background-color: rgb(159, 240, 233);
+    display: inline-block;
+    height: 99.6%;
+    border: solid 2px;
+
+}
+
+h1{
+    font-size: 30pt;
+    font-family: 'Times New Roman';
+}
+
+#nome{
+    font-size: 30pt;
+    margin-top: 15px;
+    margin-bottom: 40px;
+}
+
+#infbas{
+    font-size: 20pt;
+    margin-bottom: 4px;
+}
+
+#links{
+    font-size: 20pt;
+    margin-top: 45px;
+}
+
+#links2{
+    font-size: 20pt;
+    margin-top: 110px;
+}
+
+main{
+    margin-top: 50px;
+}
+
+main>section{
+    margin-top: 20px;
+}
+
+main>section>h1{
+    font-size: 35pt;
+}
+
+main>section>article{
+    margin-top: 8px;
+    font-size: 14pt;
+}
+
+#titulo{
+    font-size: 40pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 50px;
+}
+
+#cabra{
+    margin-top: 20px;
+    width: 110px;
+    height: 110px;
+    border-radius: 110px;
+    border: solid 2px;
+}
